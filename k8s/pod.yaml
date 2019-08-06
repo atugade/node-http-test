@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: node-http-test
+spec:
+  containers:
+  - name: node-http-test
+    image: atugade/node-http-test
